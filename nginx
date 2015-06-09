@@ -91,7 +91,7 @@ NGINX_CONF_FILE=${NGINX_CONF_FILE:-$NGINXPATH/conf/nginx.conf} # config file pat
 PIDNAME=${PIDNAME:-"nginx"}                   # lets you do $PS-slave
 PIDFILE=${PIDFILE:-$PIDNAME.pid}              # pid file
 PIDSPATH=${PIDSPATH:-$NGINXPATH/logs}         # default pid location, you should change it
-RUNAS=${RUNAS:-root}                          # user to run as
+RUNAS=${RUNAS:-"root"}                          # user to run as
 
 SCRIPT_OK=0           # ala error codes
 SCRIPT_ERROR=1        # ala error codes
